@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="cabecera">
+            <h1>Encriptador / desencriptador</h1>
+        </div>
+        <div class="contenido">
+            <div class="encriptador">
+                <h2>Mensaje</h2>
+                <h3>No se aceptan mayusculas, acentos ni caracteres especiales</h3>
+                <textarea id="texto" cols="30" rows="10"></textarea>
+                <button id="encriptar">Encriptar</button>
+                <button id="desencriptar">Desencriptar</button>
+            </div>
+            <div class="desencriptador">
+                <h2>Resultado</h2>
+                <textarea id="resultado" cols="15" rows="5"></textarea>
+                <button id="copy">Copiar</button>
+            </div>
+           
+        </div>
+        <footer class="footer">Desarrollado por Gabriel Gomez &COPY; </footer>
+    </div>
+    
+<script src="scrypt.js"></script>
+</body>
+</html>
