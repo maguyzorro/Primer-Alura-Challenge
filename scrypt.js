@@ -50,12 +50,3 @@ function desencriptar (cadena){
     }
     return mensaje;
 }
-/*function copiar(id){
-    var aux = document.createElement("input");
-    aux.setAttribute("value", document.getElementById(id).innerHTML);
-    document.body.appendChild(aux);
-    aux.select();
-    document.execCommand("copy");
-    aux.select();
-    document.body.removeChild(aux);
-}*/
